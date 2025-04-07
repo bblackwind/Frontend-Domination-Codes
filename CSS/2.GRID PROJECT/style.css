@@ -86,7 +86,14 @@ html,body{
 }
 
 #right{
-    background-color: rgb(227, 122, 36);
+    /* background-color: rgb(227, 122, 36); */
     grid-column: 3;
     grid-row: 1/4;
+    padding: 40px;
+    padding-right: 150px;
+}
+#right video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
